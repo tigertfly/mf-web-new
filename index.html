@@ -4,7 +4,7 @@ title: MobiFlight Project
 ---
 
     <!-- Hero Section -->
-    <section class="py-20 bg-cover bg-center relative" style="background-image: url('/assets/img/homepage-mcp.jpg');">
+    <section class="py-20 bg-cover bg-center relative" style="background-image: url('{{ "/assets/img/homepage-mcp.jpg" | relative_url }}');">
         <div class="absolute inset-0 bg-black opacity-50"></div>
         <div class="container mx-auto text-center relative z-10 space-y-4">
             <h1 class="text-4xl md:text-6xl font-bold mb-2">Welcome to MobiFlight Project</h1>
@@ -47,7 +47,7 @@ title: MobiFlight Project
                         community, and for user support. We take pride to foster a friendly and
                         welcoming community for thousands of simulator builders.
                     </p>
-                    <img src="/assets/img/showcase.png" alt="Showcase Gallery" class="mx-auto my-4 rounded-lg shadow-md">
+                    <img src="{{ "/assets/img/showcase.png" | relative_url }}" alt="Showcase Gallery" class="mx-auto my-4 rounded-lg shadow-md">
                     <p>
                         Prepare to be amazed by the projects our community members have built! 
                         From custom cockpit panels to immersive flight sim setups, our showcase 
