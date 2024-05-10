@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
    MobiFlight integrates with popular flight simulators such as
    Microsoft Flight Simulator, X-Plane, and Prepar3D.
 baseurl: "/mf-web-new" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tigertfly.github.io/mf-web-new/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
